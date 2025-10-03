@@ -57,6 +57,72 @@ html {
   background: gold;
 }
 
+/* Mis contenedores para la pagina inicial de los datos de animalitos "Dante" */
+.container {
+  border: solid 3px green;
+  padding: 20px;              
+  margin: 20px auto;           
+  max-width: 800px;           
+  background-color: #f9fbff; 
+  border-radius: 12px;         
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+}
+
+.container1 {
+  border: solid 3px rgb(21, 0, 128);
+  padding: 20px;              
+  margin: 20px auto;           
+  max-width: 800px;           
+  background-color: #f9fbff; 
+  border-radius: 12px;         
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+}
+
+.container2 {
+  border: solid 3px rgb(128, 0, 117);
+  padding: 20px;              
+  margin: 20px auto;           
+  max-width: 800px;           
+  background-color: #f9fbff; 
+  border-radius: 12px;         
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+}
+
+.container3 {
+  border: solid 3px rgb(128, 0, 0);
+  padding: 20px;              
+  margin: 20px auto;           
+  max-width: 800px;           
+  background-color: #f9fbff; 
+  border-radius: 12px;         
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+}
+
+.container4 {
+  border: solid 3px rgb(0, 92, 128);
+  padding: 20px;              
+  margin: 20px auto;           
+  max-width: 800px;           
+  background-color: #f9fbff; 
+  border-radius: 12px;         
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+}
+
+.container5 {
+  border: solid 3px rgb(128, 124, 0);
+  padding: 20px;              
+  margin: 20px auto;           
+  max-width: 800px;           
+  background-color: #f9fbff; 
+  border-radius: 12px;         
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+  
 .img-gr{
   width: 500px;
   height: 300px;
