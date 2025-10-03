@@ -1,5 +1,63 @@
 html {
     height: 100%;
     width: 100%;
-  }
-  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right,#0077B6 0%, #2ecc71 50%, #E67E22 100%);
+  padding: 15px 30px;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Barra de búsqueda */
+.search {
+  display: flex;
+  gap: 10px;
+}
+
+.search input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.search button {
+  background: white;
+  border: none;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.search button:hover {
+  background: gold;
+}
+
+.img-gr{
+  width: 500px;
+  height: 300px;
+}
