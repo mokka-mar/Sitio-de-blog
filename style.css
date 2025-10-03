@@ -57,73 +57,261 @@ html {
   background: gold;
 }
 
-/* Mis contenedores para la pagina inicial de los datos de animalitos "Dante" */
-.container {
-  border: solid 3px green;
-  padding: 20px;              
-  margin: 20px auto;           
-  max-width: 800px;           
-  background-color: #f9fbff; 
-  border-radius: 12px;         
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  font-family: Arial, sans-serif; 
+/* Sección de contacto */
+.contacto {
+  padding: 40px 30px;
+  background-color: #d3b7b7;
+  font-family: Arial, sans-serif;
+  color: #8f3082;
 }
 
-.container1 {
-  border: solid 3px rgb(21, 0, 128);
-  padding: 20px;              
-  margin: 20px auto;           
-  max-width: 800px;           
-  background-color: #f9fbff; 
-  border-radius: 12px;         
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  font-family: Arial, sans-serif; 
+.contacto h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #0077B6;
 }
 
-.container2 {
-  border: solid 3px rgb(128, 0, 117);
-  padding: 20px;              
-  margin: 20px auto;           
-  max-width: 800px;           
-  background-color: #f9fbff; 
-  border-radius: 12px;         
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  font-family: Arial, sans-serif; 
+.contacto h2 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #2ecc71;
 }
 
-.container3 {
-  border: solid 3px rgb(128, 0, 0);
-  padding: 20px;              
-  margin: 20px auto;           
-  max-width: 800px;           
-  background-color: #f9fbff; 
-  border-radius: 12px;         
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  font-family: Arial, sans-serif; 
+.contacto p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.container4 {
-  border: solid 3px rgb(0, 92, 128);
-  padding: 20px;              
-  margin: 20px auto;           
-  max-width: 800px;           
-  background-color: #f9fbff; 
-  border-radius: 12px;         
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  font-family: Arial, sans-serif; 
+.contacto ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.container5 {
-  border: solid 3px rgb(128, 124, 0);
-  padding: 20px;              
-  margin: 20px auto;           
-  max-width: 800px;           
-  background-color: #f9fbff; 
-  border-radius: 12px;         
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  font-family: Arial, sans-serif; 
-  
-.img-gr{
-  width: 500px;
-  height: 300px;
+.contacto li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Formulario opcional */
+.contacto form {
+  margin-top: 30px;
+}
+
+.contacto label {
+  font-weight: bold;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contacto button {
+  background-color: #E67E22;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background-color: #d35400;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4 {
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+}
+
+.intro-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 900px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #072646;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px; 
+    padding: 0 20px;
+    max-width: 1200px; 
+    margin: 0 auto 40px auto;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column; 
+}
+
+.grid-item img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+}
+.grid-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px) scale(1.01); 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.article-content {
+    padding: 15px;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.article-content h3 {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.article-content h4 {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.article-content p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #364052;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-section {
+    margin: 10px;
+    min-width: 150px;
+}
+
+.footer-section h4 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline; 
+}
+
+.footer-bottom {
+    text-align: center; 
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .articles-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .footer-content {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
 }
